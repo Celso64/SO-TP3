@@ -8,7 +8,7 @@ import org.hospital.model.Paciente;
 
 public class Main {
     public static void main(String[] args) throws InterruptedException {
-        Tiempo.setRangoCoeficienteTiempo(5.0, 10.0);
+        Tiempo.setRangoCoeficienteTiempo(2.0, 3.0);
         Consultorio consultorio = new Consultorio(28, 4); // Capacidad 28 pacientes, 4 médicos
 
         // Crear y lanzar hilos de médicos
